@@ -88,7 +88,7 @@ font-weight: 700;}
   #nav4 .depth1{position: static;} 
     
   #nav4 .nav_box {position:absolute;top:calc(2.2rem + 25px);top:78px;left:0;width:100%;
-               background-color:#5b5441;z-index:96;
+               background-color:#3a372e;z-index:96;
               display: none;
               padding:10px 0; color:#fff;}
 
@@ -156,7 +156,8 @@ ul,li,ol{list-style: none;}
 .foot1 .list{position: absolute; left: 0; bottom: 40px; border: 1px solid #000;
              width: 100%; box-sizing: border-box; padding: 10px; display: none;
              height: 500px; background-color: white;}  
-.foot1 li:hover .list{display: block; height: auto;}            
+.foot1 li:hover .list{display: block; height: auto; width: 115px;}   
+.foot1 li:hover .list a{font-size: 0.7rem;}         
 .foot1 li:hover .select_tit::after{transform: rotate(90deg);}         
 .foot1 .list a {display: block; margin:5px 0;} 
 
