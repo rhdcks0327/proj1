@@ -34,7 +34,8 @@ button{outline:0}
 #header .top_icon ul li{
       display: inline; height: 74px; }   
 
-#header .top_icon ul li img{width: 20%; margin-top: 15px; margin-right: 25px;}
+#header .top_icon ul li img{width: 20%; margin-top: 15px; margin-right: 25px;
+     min-width: 20%; }
   /* 네비4 - 메가네비100% */
   #header .inner{position: relative;}  
   #nav4{}
@@ -51,7 +52,7 @@ button{outline:0}
 
   #nav4 .depth1{position: static;} 
     
-  #nav4 .nav_box {position:absolute;/*top:calc(2.8rem + 25px);*/top:78px;left:0;width:100%;
+  #nav4 .nav_box {position:absolute;top:calc(2.2rem + 25px);top:78px;left:0;width:100%;
                background-color:#5b5441;z-index:96;
               display: none;
               padding:10px 0; color:#fff;}
