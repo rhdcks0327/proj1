@@ -126,7 +126,7 @@
 #sec1 .slick-slide img{width: 100%; min-width: 1024px;}
 
 
-.slider > .slick-arrow{position:absolute;top:calc(50% - 24px);
+#sec1 .slick-arrow{position:absolute;top:calc(50% - 24px);
     width:48px;height:48px;
     background-color: transparent;
     background-position: center;
@@ -135,11 +135,26 @@
     border:none;text-indent:-99999px;
     z-index:9999}
 
-#sec1 > .slick-prev{left:100px; background-image: url(../images/sfix-ico_03.png);left:50px}
-#sec1 > .slick-prev:hover{background-image:url(../images/sfix-ico_05.png)}
-#sec1 > .slick-next{right:100px;  background-image:url(../images/sfix-ico_04.png);
-    right:50px}
-#sec1 > .slick-next:hover{background-image: url(../images/sfix-ico_06.png);}    
+#sec1 .slick-prev{left:100px; background-image: url(../images/sfix-ico_03.png);left:140px}
+#sec1 .slick-prev:hover{background-image:url(../images/sfix-ico_05.png)}
+#sec1 .slick-next{right:100px;  background-image:url(../images/sfix-ico_04.png);
+    right:140px}
+#sec1 .slick-next:hover{background-image: url(../images/sfix-ico_06.png);}    
 
 
+#sec5 .slider{margin-top: 100px;}
+#sec5 .slider img{width: 270px; margin-top: 147px;}
+#sec5 .slider .slick-arrow{position:absolute; top:-50px;
+    width:48px;height:48px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:none;text-indent:-99999px;
+    z-index:9999}
 
+#sec5 .slick-prev{left:100px; background-image: url(../images/sfix-ico_03.png);left:0;}
+#sec5 .slick-prev:hover{background-image:url(../images/sfix-ico_05.png)}
+#sec5 .slick-next{right:100px;  background-image:url(../images/sfix-ico_04.png);
+    left:50px;}
+#sec5 .slick-next:hover{background-image: url(../images/sfix-ico_06.png);}    
