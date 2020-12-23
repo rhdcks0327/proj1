@@ -123,7 +123,7 @@
 /****************************BES**************************************/
 
 #sec1{clear:both}
-#sec1 > .slick-slide img{width: 100%; min-width: 1024px;}
+#sec1 .slick-slide img{width: 100%; min-width: 1024px;}
 
 
 .slider > .slick-arrow{position:absolute;top:calc(50% - 24px);
