@@ -26,6 +26,24 @@ button{outline:0}
 .sound_only{display: block;text-indent:-9999999999px;}
 
 /****************메인화면, 서브화면 공통영역 ************************************/
+
+#quickmenu{width: 115px;
+      position: fixed;
+      top :100px; right:0; z-index: 1; margin-top: 150px;
+      border-radius: 10px;}
+  #quickmenu ul{ background-color:#302c29; border-radius: 10px;}
+  #quickmenu ul:hover{ background-color:#524d4a; transition: 0.5s; border-radius: 10px;}
+  #quickmenu li{ color: white;  height: 100px;}
+  #quickmenu ul:last-child{height: 50px; background-color: rgb(29, 27, 27);}
+  #quickmenu ul:last-child:hover{ background-color:#524d4a; height: 50px;}
+  #quickmenu ul:last-child a{font-size: 1.2rem; margin-bottom: 7px;}
+
+  #quickmenu li{text-align: center;  display: block;}      
+  #quickmenu li a{display: block; margin-top: 10px;} 
+  #quickmenu ul:first-child{border-top:none;} 
+  #quickmenu li img{width: 40%; text-align: center; }
+  #quickmenu li:last-child{border-top:1px solid white } 
+
 #wrap{width: 100%; min-width: 1024px; overflow: hidden;}
 .inner{min-width:1024px;max-width:1280px;margin:0 auto;}
  #header .top_icon{float:right; width: 20%;
