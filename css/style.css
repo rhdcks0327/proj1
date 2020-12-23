@@ -19,13 +19,17 @@ h3{font-size: 0.9375rem; display: inline-block;}
 
 
 /*********************section****************************/
-#sec2 .inner{position: relative;}
-#sec2 .notice,#sec2 .purp{width:500px;height:100px;
-             /*width:calc((100% - 50px)/2)*/
-            background-color:rgba(0,0,0,0.5);
-            position:absolute;bottom:5px}
+#sec2 .inner{position:relative}
+#sec2 .notice,#sec2 .purp{/*width:500px;*/width:calc((100% - 50px)/2);height:100px;
+    background-color:rgba(0,0,0,0.5); color:#fff;
+    position:absolute;bottom:5px;overflow:hidden;text-align: center;}
+#sec2 .notice span,#sec2 .purp span{font-weight:bold;margin-right:1.8rem;}
+
 #sec2 .notice{left:0;}
-#sec2 .purp{right:0}
+#sec2 .notice div{top:calc((100% - 50px)/2);margin-top:calc(50px);margin-bottom:calc(50px + 1rem);}
+#sec2 .purp{right:0;}
+#sec2 .purp div{top:calc((100% - 50px)/2);margin-top:calc(50px);margin-bottom:calc(50px + 0.5rem);}
+#sec2 .purp div a{margin-right:2rem;}
 
 #sec3{margin-top: 70px; margin-bottom: 115px;}
 #sec3 h2{margin-bottom: 20px; }
@@ -119,7 +123,7 @@ border:4px solid transparent}
   #sec7 .inner > h2{margin-right: 54px; margin-bottom: 35px; margin-top: 115px;}
   #sec7 .inner p{margin-bottom: 30px;}
   #sec7 .right_box li:hover a{border-color:black; }
-  #sec7 .right_box li:hover img{transform: scale(1.3);}
+  #sec7 .right_box li:hover img{transform: scale(1.2);}
   #sec7 .right_box .images_box {
          width:100%;height:225px;
          overflow:hidden;
